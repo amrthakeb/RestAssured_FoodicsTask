@@ -1,6 +1,7 @@
 # RestAssured_FoodicsTask
                                             
 In this task, the main used functions are: 
+                                          
                                           RestAssured dependency to send API requests.
                                            
                                            Jackson dependency to handle Json data. 
