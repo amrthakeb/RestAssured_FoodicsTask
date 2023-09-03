@@ -10,6 +10,6 @@ In this task, the main used functions are:
                                           
                                            Annotations like (@JsonProperty  & @JsonIgnoreProperties) to include & ignore Json properties.  
                                            
-                                           Assertions validate the content of the API response body.
+                                           Assertions to validate the content of the API response body.
                                            
                                            Generating session token in 2nd TCase, using the given one used in 1st TCase
