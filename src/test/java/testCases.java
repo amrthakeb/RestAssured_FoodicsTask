@@ -61,5 +61,6 @@ public class testCases {
         Assert.assertEquals(deSerialize.getUser().getName(),"Test Foodics","ResponseName incorrect: " + deSerialize.getUser().getName());
         Assert.assertEquals(deSerialize.getUser().getEmail(),"merchant@foodics.com","ResponseEmail incorrect: " + deSerialize.getUser().getEmail());
         Assert.assertTrue(deSerialize.getUser().getUpdated_at().contains("2023-09-03"),"UserUpdatedDate incorrect: " + deSerialize.getUser().getUpdated_at());
+        //@last Asserstion (getUpdated_at),change the containts() argument to the current date of execution
     }
 }
